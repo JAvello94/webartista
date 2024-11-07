@@ -1,0 +1,110 @@
+html {
+    margin: 0 0;
+    padding: 0 0;
+   
+
+}
+
+body {
+    margin: 0 0;
+    padding: 0 0;
+    background-image: url(fondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#soldados{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+main {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to bottom right, black, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+article {
+    text-align: justify;
+    background-color:red;
+    color: white;
+    width: 30%;
+    border: 2px dotted blueviolet;
+    height: 700px;
+    padding: 5px;
+}
+
+#biografia {
+    border: 2px inset yellow;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 98.5%;
+    background: linearlinear-gradient(to bottom right, blue, red);
+    margin: 0 0 5px;
+    padding: 0;
+    color: white;
+}
+
+.navegacion {
+    background: linear-gradient(to left, red, black);
+    width: fit-content;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    cursor: crosshair;
+}
+
+aside {
+    width: 35%;
+    background-color: black;
+    height: 700px;
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+footer {
+    background: linear-gradient(to right, red, black);
+    height: fit-content;
+    width: 98.5%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.fotochicho {
+    width: 300px;
+    height: 200px;
+}
+
+#pfoto {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
